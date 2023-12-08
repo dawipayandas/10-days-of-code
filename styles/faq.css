@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
+
 html {
   height: 100%;
   font-family: "Open Sans", sans-serif;
@@ -24,9 +25,46 @@ html {
   color: white;
 }
 
-.heading {
-  font-size: var(--fs-large);
+.question,
+.answer {
+  background: linear-gradient(120deg, rgba(91, 106, 191, 0.3), rgba(54, 209, 220, 0.3));
+  border: 1px solid rgb(13, 17, 27);
+  border-radius: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
+
+.q-text,
+.a-text {
+  color: white;
+}
+
+
+
+
+.FAQ {
+  font-size: 4rem;
+  /* Use the desired font size */
+  margin-top: 150px;
+  text-align: center;
+  font-weight: 600;
+  background-image: url("/assets/Images/timeline.svg") !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+
+
+
+
+
+
+
 
 .question {
   background-color: #00111a;
@@ -80,10 +118,12 @@ html {
 }
 
 @media only screen and (max-width: 776px) and (min-width: 568px) {
+
   .a-span,
   .q-span {
     margin-left: -1% !important;
   }
+
   .a-text,
   .q-text {
     margin-left: 1% !important;
@@ -103,12 +143,15 @@ html {
     left: 45%;
     top: 40%;
   }
+
   #questions {
     display: none;
   }
+
   h1 {
     font-size: 2em !important;
   }
+
   #more-button {
     width: 100%;
     height: auto;
@@ -119,6 +162,7 @@ html {
     cursor: pointer;
     border-left: solid 5px var(--fc-blue);
   }
+
   #grow0,
   #grow1,
   #grow2,
@@ -141,7 +185,9 @@ html {
     /* overflow: hidden; */
   }
 }
+
 @media only screen and (max-width: 400px) {
+
   #grow0,
   #grow1,
   #grow2,
