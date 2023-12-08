@@ -81,7 +81,7 @@ html {
   z-index: 20000;
   border: 1px solid rgba(255, 255, 255, 0.123);
   backdrop-filter: blur(27px);
-  background: url("/assets/Images/navbarbg") rgba(220, 220, 220, 0.045) 10% / cover no-repeat;
+  background: url("../assets/Images/navbarbg") rgba(220, 220, 220, 0.045) 10% / cover no-repeat;
 }
 
 .tdoctitle{
