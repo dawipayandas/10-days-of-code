@@ -183,7 +183,7 @@
 .projecttitle{
   font-size: 4rem;
   font-weight: 600;
-  background-image: url("/assets/Images/activities.svg")  !important;
+  background-image: url("../assets/Images/activities.svg")  !important;
   background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -239,8 +239,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px;
 }
+.project-image img{
+  border-radius: 8px;
+  width: 14em !important;
+  height: 11em !important;
+  object-fit: cover;
+}
+
 
 .b {
   height: 60px;
@@ -283,19 +290,16 @@ button:active {
   -webkit-transition: 100ms;
   transition: 100ms;
 }
-.project-image img {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
 .project-description {
   width: 14em;
-  height: 9em;
+  height: 5em;
+  text-align: center;
+  margin: auto;
   padding: 0.6em;
-  background-color: #00111a;
+  background-color: #001723;
   text-align: center;
   color: var(--fc-primary);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 8px 8px;
 }
 .project-description h2 {
   font-size: 1.1rem;
@@ -499,11 +503,6 @@ button:active {
     justify-content: center;
     border-radius: 5px 5px 0 0;
   }
-  .project-image img {
-    width: 100%;
-    height: 100%;
-    display: flex;
-  }
   .project-description {
     height: 7em;
     padding: 0.6em;
@@ -654,7 +653,7 @@ div.marquee > a > img {
   font-size: 1.6em;
   font-weight: 600;
   
-  background-image: url("/assets/Images/timeline.svg");
+  background-image: url("../assets/Images/timeline.svg");
   background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -662,7 +661,7 @@ div.marquee > a > img {
 .timelinetitle{
   font-size: 4rem;
   font-weight: 600;
-  background-image: url("/assets/Images/timeline.svg")  !important;
+  background-image: url("../assets/Images/timeline.svg")  !important;
   background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -879,15 +878,14 @@ font-size: 1em;
 .card {
   /* margin-right: 4em; */
   position: relative;
-  width: 15em;
-  height: 260px;
-  background-color: rgba(37, 18, 16);
+  background-color: rgba(255, 255, 255, 0.09);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 12px;
+  padding: 1em;
   gap: 12px;
-  border-radius: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(27px);
   cursor: pointer;
   align-items: center;
 }
@@ -901,7 +899,7 @@ font-size: 1em;
   width: 200px;
   height: 254px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  background: linear-gradient(-45deg, #008bfcb2 0%, #40c9ffa5 100%);
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -912,7 +910,7 @@ font-size: 1em;
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  background: linear-gradient(-45deg, #008afc 0%, #00dbde 100%);
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
