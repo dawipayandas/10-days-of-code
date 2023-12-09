@@ -295,7 +295,7 @@ button:active {
   height: 5em;
   text-align: center;
   margin: auto;
-  padding: 0.6em;
+  padding: 0.6em auto;
   background-color: #001723;
   text-align: center;
   color: var(--fc-primary);

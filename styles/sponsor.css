@@ -22,7 +22,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 75%;
+  background-size: cover;
   /* Adjust the value based on how much you want to move it down */
 }
 
