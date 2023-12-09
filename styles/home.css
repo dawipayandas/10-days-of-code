@@ -10,6 +10,9 @@
   
   z-index: 1;
 }
+.timelinemobile{
+  display: none;
+}
 #landingSection{
   width: 80%;
   margin: 2rem auto 0rem auto;
@@ -614,6 +617,11 @@ div.marquee > a > img {
   }
 }
 @media only screen and (max-width: 500px) {
+  .timelinemobile{
+    display: block;
+    margin-left: -10px;
+    margin-bottom: -2px ;
+  }
   .landingSectionSubHeading{
     font-size: 2em;
   }
@@ -745,6 +753,11 @@ font-size: 1em;
   }
 }
 @media screen and (max-width: 800px) {
+  .timelinemobile{
+    display: block;
+    margin-left: -10px;
+    margin-bottom: -3px;
+  }
   .date-content-wrapper {
     flex-direction: row;
     justify-content: flex-start;
@@ -762,7 +775,7 @@ font-size: 1em;
     justify-content: flex-start;
   }
   .timelineDate{
-    
+    font-size: 1.2rem;
   }
   /* .timeline-svg{
     object-fit: unset;
