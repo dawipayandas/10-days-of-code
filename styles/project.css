@@ -29,12 +29,12 @@
   /* align-items: center; */
   justify-content: center;
   font-size: var(--fs-large);
-  margin-bottom: 2rem;
+  margin-top: 4.4rem;
 }
 
 .project {
-  /* margin: auto; */
-  margin: 2.5em 0 0.3em 0;
+  margin : 1em auto;
+  text-align: center;
 }
 
 .cardsWrapper {
@@ -42,6 +42,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2em;
+  margin: 2rem 0rem 4rem ;
 }
 
 .card1 {
@@ -56,8 +57,7 @@
   position: relative;
 }
 
-.card1:hover,
-.glass-button:hover {
+.card1:hover{
   transform: scale(1.01);
   box-shadow: 0 0 10px 0 #39ff14, 0 0 20px 0 #00FF00, 0 0 30px 0 #87CEEB;
 }
@@ -236,7 +236,7 @@ card1 h4 {
   color: white;
   /* Set text color to ensure visibility */
 }
-}
+
 
 .col-5 {
   background-color: var(--card-blue-color);

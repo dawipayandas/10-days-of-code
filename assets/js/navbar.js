@@ -32,9 +32,16 @@ function openNav() {
 //   document.getElementById("main").style.marginLeft = "0";
 // }
 function jump() {
-  $("#Timeline").scrollTop(0);
+  $("#time_line").scrollTop(0);
 }
 
+function jumpToDiv(id) {
+  console.log("done");
+    const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView();
+  }
+}
 // $('html, body').hide();
 
 // // $(document).ready(function()
