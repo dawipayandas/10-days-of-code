@@ -266,7 +266,7 @@
 }
 .projectDetails:hover {
   transform: scale(1.01);
-  filter: grayscale(0%) brightness(120%)
+  filter: grayscale(0%) brightness(110%)
     drop-shadow(5px 5px 10px hsl(194, 100%, 24%));
 }
 .projectDetailsWrapper {
@@ -275,6 +275,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .project-image {
   width: 14em;
   height: 11em;
@@ -544,7 +545,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px 5px 0 0;
+    border-radius: 8px;
   }
   .project-description {
     height: 7em;
