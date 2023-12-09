@@ -6,32 +6,35 @@
   height: 75vh;
 }
 
-.Sponsors {
 
-  /* padding-top: 3.5rem; */
+
+.WrapSponsor{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  box-sizing: border-box;
+
 }
-
-
+.SponsorHeadDiv{
+  display: flex;
+}
 .Sponsor {
-  font-size: 4rem;
-  /* Use the desired font size */
+  font-size: 3.8rem;
   margin-top: 150px;
   text-align: center;
   font-weight: 600;
-  background-image: url("../assets/Images/timeline.svg") !important;
+  background-image: url(../assets/Images/timeline.svg) !important;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
   background-size: cover;
-  /* Adjust the value based on how much you want to move it down */
 }
 
 
-.Sponsors h1 {
-  text-align: center;
-  font-size: 70px;
-  margin-bottom: 0px;
-}
 
 .com-name {
   font-size: 1.5rem;
@@ -48,13 +51,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 10px 70px;
+  padding: 10px auto;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 
 .SponsorDetails {
-  margin: 40px;
+  margin: 40px auto;
   position: relative;
   display: flex;
   justify-content: center;
@@ -64,13 +68,14 @@
 }
 
 .head {
+  text-align: center;
   height: 40vh;
   margin-top: 5rem;
 }
 
 .SponsorDetailsWrapper {
   background: var(--background-color);
-  padding: 20px;
+  padding: 20px auto;
   border-radius: 25px;
   height: 300px;
   width: 100%;
@@ -119,6 +124,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .Sponsor{
+    font-size: 3.2rem;
+  }
   .code {
     min-width: 260px !important;
     height: 100%;
@@ -143,8 +151,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .Sponsors h1 {
-    font-size: 40px;
+@media screen and (max-width: 400px) {
+  .Sponsors {
+    font-size: 3rem;
   }
 }
