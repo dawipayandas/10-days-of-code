@@ -10,6 +10,30 @@
   
   z-index: 1;
 }
+.timeline-right{
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+
+}
+.timelinestart{
+  margin-left: 2.6px;
+  margin-bottom: -8px;
+  display: flex;
+  justify-content: center;
+}
+.timelinestart img{
+  scale: 0.9;
+}
+.timelineend img{
+  scale: 0.9;
+}
+.timelineend{
+  margin-left: 4px;
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+}
 .timelinemobile{
   display: none;
 }
@@ -131,7 +155,7 @@
 }
 .list-item {
   list-style: none;
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 .listitem {
   width: 45%;
@@ -756,6 +780,9 @@ font-size: 1em;
   }
 }
 @media screen and (max-width: 800px) {
+  .timelinestart{
+    display: none;
+  }
   .timelinemobile{
     display: block;
     margin-left: -10px;
@@ -784,7 +811,7 @@ font-size: 1em;
     justify-content: flex-start;
   }
   .timelineDate{
-    font-size: 1.2rem;
+    font-size: 1em;
   }
   /* .timeline-svg{
     object-fit: unset;

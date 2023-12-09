@@ -44,11 +44,12 @@
 }
 
 .cardsWrapper {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 2em;
-  margin: 2rem 0rem 4rem ;
+  margin: 2rem auto 4rem auto ;
 }
 
 .card1 {
