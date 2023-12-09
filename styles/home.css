@@ -18,7 +18,9 @@
 }
 .project-description{
   text-align: center;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .timelinestart{
   margin-left: 2.6px;

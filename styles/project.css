@@ -174,7 +174,7 @@ card1 h4 {
 }
 
 .diffculty-bar-progress4 {
-  width: 55%;
+  width: 40%;
   background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
   animation: progressAnimation4 3s linear infinite;
 }
