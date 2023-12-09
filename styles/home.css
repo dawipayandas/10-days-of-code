@@ -16,6 +16,10 @@
   gap : 10px;
 
 }
+.project-description{
+  text-align: center;
+  margin: auto;
+}
 .timelinestart{
   margin-left: 2.6px;
   margin-bottom: -8px;
@@ -780,7 +784,7 @@ font-size: 1em;
   }
 }
 @media screen and (max-width: 800px) {
-  .timelinestart{
+  .timelinestart,.timelineend{
     display: none;
   }
   .timelinemobile{
