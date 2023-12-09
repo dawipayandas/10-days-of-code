@@ -209,17 +209,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 70px;
+  padding: 10px 0;
 }
 .projectDetails {
-  margin: 2em;
+  margin: 2em auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   filter: grayscale(20%);
   cursor: pointer;
   transition: all 200ms ease;
-  padding: 2em;
   /* gap: 40em; */
 }
 .projectDetails:hover {
