@@ -23,6 +23,7 @@
 }
 .copyright a{
   color :white;
+  padding: 1em 0em 1.2em;
 }
 .footer-content{
   display: flex;
