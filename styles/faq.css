@@ -54,7 +54,7 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
 }
 
@@ -137,6 +137,9 @@ html {
 }
 
 @media only screen and (max-width: 568px) {
+  .FAQ{
+    font-size: 3.6rem;
+  }
   #status {
     width: 150px;
     height: 150px;
@@ -187,6 +190,9 @@ html {
 }
 
 @media only screen and (max-width: 400px) {
+  .FAQ{
+    font-size: 3rem;
+  }
 
   #grow0,
   #grow1,
