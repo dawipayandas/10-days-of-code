@@ -11,6 +11,7 @@
   --fs-small: 1rem;
   --fs-large: 3.9rem;
   --bg: #9e3a3a;
+  --bg-dark: #220c0c;
   --bg-grad: linear-gradient(
     90deg,
     #9e3a3a 0%, /* Base red tone */

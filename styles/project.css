@@ -71,10 +71,10 @@
 			padding-box,
 		linear-gradient(
 				135deg,
-				hsl(0, 87%, 66%) 0%,
+				#f45d5d 0%,
 				var(--container-color),
 				var(--container-color),
-				hsl(41, 60%, 49%) 100%
+				#c89832 100%
 			)
 			border-box;
 	border-radius: 1.25rem;
@@ -150,6 +150,9 @@
 }
 
 .diffculty-bar {
+  --color1: #c89832;
+  --color2: #f45d5d;
+  --color3: #9e3a3a;
   margin-top: 3px;
   width: 15em;
   height: 0.8em;
@@ -176,14 +179,14 @@ card1 h4 {
 
 .diffculty-bar-progress1 {
   width: 25%;
-  background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
+  background: linear-gradient(90deg, #CCCCCC, var(--color1), var(--color2), var(--color3));
   animation: progressAnimation1 3s linear infinite;
   transform-style: preserve-3d;
 }
 
 .diffculty-bar-progress2 {
   width: 55%;
-  background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
+  background: linear-gradient(90deg, #CCCCCC, var(--color1), var(--color2), var(--color3));
   animation: progressAnimation2 3s linear infinite;
   transform: translateZ(10px);
   /* Added 3D translation */
@@ -191,19 +194,19 @@ card1 h4 {
 
 .diffculty-bar-progress3 {
   width: 25%;
-  background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
+  background: linear-gradient(90deg, #CCCCCC, var(--color1), var(--color2), var(--color3));
   animation: progressAnimation3 3s linear infinite;
 }
 
 .diffculty-bar-progress4 {
   width: 40%;
-  background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
+  background: linear-gradient(90deg, #CCCCCC, var(--color1), var(--color2), var(--color3));
   animation: progressAnimation4 3s linear infinite;
 }
 
 .diffculty-bar-progress5 {
   width: 80%;
-  background: linear-gradient(90deg, #CCCCCC, #39ff14, #00FF00, #87CEEB);
+  background: linear-gradient(90deg, #CCCCCC, var(--color1), var(--color2), var(--color3));
   animation: progressAnimation5 3s linear infinite;
 }
 
