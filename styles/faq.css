@@ -27,7 +27,7 @@ html {
 
 .question,
 .answer {
-  background: linear-gradient(120deg, rgba(91, 106, 191, 0.3), rgba(54, 209, 220, 0.3));
+  background: linear-gradient(120deg, #9e3a3a, #ac4842, #ba574a, #c86552, #d6745a, #e48363, #f1926c, #ffa175);
   border: 1px solid rgb(13, 17, 27);
   border-radius: 0;
   padding: 20px;
@@ -49,7 +49,8 @@ html {
   margin-top: 150px;
   text-align: center;
   font-weight: 600;
-  background-image: url("../assets/Images/timeline.svg") !important;
+  /* background-image: url("../assets/Images/timeline.svg") !important; */
+  background: linear-gradient(120deg, #9e3a3a, #af5439, #bc703a, #c48c3f, #c9a849, #cac55a, #c7e274, #c0ff94);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -87,7 +88,7 @@ html {
 
 .q-span {
   font-size: 5vh;
-  color: #0095c2 !important;
+  /* color: #0095c2 !important; */
 }
 
 .q-text {
@@ -214,4 +215,14 @@ html {
     height: 0;
     overflow-y: scroll;
   }
+}
+
+.q-span {
+  color: #ff5e5e; /* Soft red */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.q-span:hover {
+  color: #ff7f7f; /* Slightly lighter red on hover */
 }

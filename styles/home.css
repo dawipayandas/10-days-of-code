@@ -166,7 +166,7 @@
 .listitem {
   width: 45%;
   height: 3.6em;
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  border: 1px solid rgba(158, 58, 58, 0.4);
   border-radius: 12px;
   display: flex;
   gap : 40px;
@@ -176,7 +176,10 @@
   /* rounded: 15px; */
 
   /* Background with linear gradient */
-  background: linear-gradient(rgba(117, 172, 255, 0) 0%, rgba(255, 255, 255, 0.12) 100%);
+  background: linear-gradient(
+    rgba(158, 58, 58, 0.2) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
 }
 .listitem-text {
   font-size: 1.2rem;
@@ -269,7 +272,7 @@
 .projectDetails:hover {
   transform: scale(1.01);
   filter: grayscale(0%) brightness(110%)
-    drop-shadow(5px 5px 10px hsl(194, 100%, 24%));
+    drop-shadow(5px 5px 10px #9e3a3a);
 }
 .projectDetailsWrapper {
   display: flex;
@@ -315,15 +318,15 @@
   transition: 500ms;
   border-radius: 15px;
   background: linear-gradient(145deg, #2e2d2d, #212121);
-  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
-  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  -webkit-box-shadow: -1px -5px 15px #9e3a3a, 5px 5px 15px #9e3a3a,
+  inset 5px 5px 10px #6b2929, inset -5px -5px 10px #6b2929;
+box-shadow: -1px -5px 15px #9e3a3a, 5px 5px 15px #9e3a3a,
+  inset 5px 5px 10px #6b2929, inset -5px -5px 10px #6b2929;
 }
 
 .b:hover {
-  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
-  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  -webkit-box-shadow: 1px 1px 13px #9e3a3a, -1px -1px 13px #9e3a3a;
+  box-shadow: 1px 1px 13px #9e3a3a, -1px -1px 13px #9e3a3a; 
   color: #d6d6d6;
   -webkit-transition: 500ms;
   transition: 500ms;
@@ -382,7 +385,7 @@ button:active {
   height: 1.5em;
 }
 .knowMoreWrapper button:hover {
-  filter: brightness(120%) drop-shadow(5px 5px 10px #00d9d2);
+  filter: brightness(120%) drop-shadow(5px 5px 10px #9e3a3a);
 }
 .Register {
   display: flex;
@@ -704,7 +707,7 @@ div.marquee > a > img {
   font-size: 1.6em;
   font-weight: 600;
   
-  background-image: url("../assets/Images/timeline.svg");
+  background-image: linear-gradient(90deg, #9e3a3a, #be5840, #db7844, #f49b48, #f8bb4b, #e7d458, #d3eb72, #c0ff94);
   background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -712,7 +715,9 @@ div.marquee > a > img {
 .timelinetitle{
   font-size: 4rem;
   font-weight: 600;
-  background-image: url("../assets/Images/timeline.svg")  !important;
+  /* background-image: url("../assets/Images/timeline.svg")  !important; */
+  background-image: linear-gradient(90deg, #9e3a3a, #be5840, #db7844, #f49b48, #f8bb4b, #e7d458, #d3eb72, #c0ff94);
+  /* background: linear-gradient(30deg, #f9d751, #ffad53, #f7875f, #e5686b, #cc5075, #ae3f7a, #8e3479, #6c2d72);  */
   background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -967,7 +972,7 @@ font-size: 1em;
   width: 200px;
   height: 254px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #008bfcb2 0%, #40c9ffa5 100%);
+  background: linear-gradient(90deg, #ff5e5e, #ff7950, #fb9347, #f4ac45, #e9c34c, #dcd85d, #ceec76, #c0ff94);
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -978,10 +983,11 @@ font-size: 1em;
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #008afc 0%, #00dbde 100%);
+  background: linear-gradient(-45deg, #9e3a3a 0%, #d97575 100%);
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
+
 
 .heading {
   font-size: 20px;
@@ -1023,3 +1029,4 @@ font-size: 1em;
 .glass-button:hover {
   border: 1.2px solid rgba(255, 255, 255, 0.8);
 }
+

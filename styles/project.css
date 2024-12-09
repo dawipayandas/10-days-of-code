@@ -66,9 +66,17 @@
   position: relative;
 }
 
-.card1:hover{
+/* .card1:hover{
   transform: scale(1.001);
   box-shadow: 0 0 10px 0 #45ffc74b, 0 0 15px 0 #00ffd580, 0 0 18px 0 #87cfeb55;
+} */
+
+.card1:hover {
+  transform: scale(1.001);
+  box-shadow: 
+    0 0 10px 0 #3a9e9e66,
+    0 0 15px 0 #3a9e9ebb, 
+    0 0 18px 0 #3a9e9ed9;
 }
 
 /* .card1:hover {
