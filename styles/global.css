@@ -16,6 +16,19 @@
     #9e3a3a 0%, /* Base red tone */
     #f45b5b 100% /* Slightly lighter red for gradient effect */
   );
+
+  
+	/*========== Colors for projects==========*/
+	/*Color mode HSL(hue, saturation, lightness)*/
+	--white-color: #fff;
+	--black-color: hsl(210, 12%, 15%);
+	--body-color: hsl(210, 16%, 12%);
+	--container-color: hsl(210, 24%, 8%);
+	/*========== Font and typography ==========*/
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--body-font: "Poppins", sans-serif;
+	--h2-font-size: 1.25rem;
+	--normal-font-size: 0.938rem;
 }
 
 .fc-blue {
