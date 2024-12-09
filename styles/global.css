@@ -48,6 +48,7 @@
 .grad-bg-text {
   background: var(--bg);
   background: var(--bg-grad);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 2ms ease;
