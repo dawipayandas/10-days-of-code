@@ -108,7 +108,7 @@ html {
   z-index: 30000;
   border: 1px solid rgba(255, 255, 255, 0.123);
   backdrop-filter: blur(27px);
-  background: url("../assets/Images/navbarbg") rgba(158, 58, 58, 0.045) 10% / cover no-repeat;
+  background: url("../assets/Images/navchange.png") rgba(158, 58, 58, 0.045) 10% / cover no-repeat;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.298);
 }
 
